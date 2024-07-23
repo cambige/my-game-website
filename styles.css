@@ -149,19 +149,6 @@ main {
 .about-content .game-description {
     color: #666;
 }
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-image: url('image/background.jpg'); /* 确保路径正确 */
-    background-size: cover; /* 让背景图片覆盖整个背景 */
-    background-repeat: no-repeat; /* 不重复背景图片 */
-    background-attachment: fixed;
-    background-position: center; /* 背景图片居中 */
-    color: #333;
-}
 
 header {
     background-color: rgba(255, 255, 255, 0.8); /* 更浅的半透明背景 */
@@ -415,5 +402,30 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.8); /* Light background on hover */
     transition: background-color 0.3s ease; /* Smooth transition */
 }
+/* Example of text animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
-
+.feature-text {
+    animation: slideIn 0.5s ease-out; /* Apply animation */
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/background.jpg'); /* 确保路径正确 */
+    background-size: cover; /* 让背景图片覆盖整个背景 */
+    background-repeat: no-repeat; /* 不重复背景图片 */
+    background-attachment: fixed;
+    background-position: center; /* 背景图片居中 */
+    color: #333;
