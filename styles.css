@@ -412,7 +412,7 @@ nav ul li a:hover {
 
 /* Hover effect on feature text */
 .feature-text:hover {
-    background-color: rgba(0, 0, 0, 0.05); /* Light background on hover */
+    background-color: rgba(0, 0, 0, 0.8); /* Light background on hover */
     transition: background-color 0.3s ease; /* Smooth transition */
 }
 /* Example of text animation */
