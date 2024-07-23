@@ -289,5 +289,39 @@ main {
 .about-content .game-description {
     color: #666;
 }
+/* styles.css */
+
+#game-features {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background */
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature-image {
+    width: 200px; /* Adjust image size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners for images */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.feature-text {
+    max-width: 600px; /* Limit text width for better readability */
+}
+
+.feature-text h3 {
+    margin-top: 0;
+}
+
+.feature-text p {
+    margin: 10px 0 0;
+}
 
 
