@@ -415,20 +415,5 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.8); /* Light background on hover */
     transition: background-color 0.3s ease; /* Smooth transition */
 }
-/* Example of text animation */
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.feature-text {
-    animation: slideIn 0.5s ease-out; /* Apply animation */
-}
 
 
