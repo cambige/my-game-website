@@ -8,3 +8,12 @@ document.querySelectorAll('nav a').forEach(anchor => {
         });
     });
 });
+// script.js
+document.getElementById('about-link').addEventListener('click', function() {
+    var aboutSection = document.getElementById('about');
+    if (aboutSection.classList.contains('hidden')) {
+        aboutSection.classList.remove('hidden');
+    } else {
+        aboutSection.classList.add('hidden');
+    }
+});
