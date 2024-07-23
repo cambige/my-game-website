@@ -426,7 +426,7 @@ body {
     background-image: url('image/background.jpg'); /* 确保路径正确 */
     background-size: cover; /* 让背景图片覆盖整个背景 */
     background-repeat: no-repeat; /* 不重复背景图片 */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center; /* 背景图片居中 */
     color: #333;
 #trailer {
