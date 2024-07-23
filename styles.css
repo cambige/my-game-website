@@ -429,3 +429,11 @@ body {
     background-attachment: fixed;
     background-position: center; /* 背景图片居中 */
     color: #333;
+#trailer {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
