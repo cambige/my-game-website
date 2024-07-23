@@ -8,12 +8,16 @@ document.querySelectorAll('nav a').forEach(anchor => {
         });
     });
 });
-// script.js
-document.getElementById('about-link').addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', function() {
+    var aboutLink = document.getElementById('about-link');
     var aboutSection = document.getElementById('about');
-    if (aboutSection.classList.contains('hidden')) {
-        aboutSection.classList.remove('hidden');
-    } else {
-        aboutSection.classList.add('hidden');
-    }
+
+    aboutLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        if (aboutSection.classList.contains('hidden')) {
+            aboutSection.classList.remove('hidden');
+        } else {
+            aboutSection.classList.add('hidden');
+        }
+    });
 });
