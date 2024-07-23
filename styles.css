@@ -149,3 +149,68 @@ main {
 .about-content .game-description {
     color: #666;
 }
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/background.jpg'); /* 确保路径正确 */
+    background-size: cover; /* 让背景图片覆盖整个背景 */
+    background-repeat: no-repeat; /* 不重复背景图片 */
+    background-attachment: scroll; /* 背景图片随页面滚动 */
+    background-position: center; /* 背景图片居中 */
+    color: #333;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* 更浅的半透明背景 */
+    color: #000; /* 黑色文字 */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000; /* 黑色文字 */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#about {
+    background-color: rgba(255, 255, 255, 0.9); /* 更浅的半透明背景 */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-content .company-description {
+    font-weight: bold;
+    color: #444;
+}
+
+.about-content .game-description {
+    color: #666;
+}
