@@ -21,3 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const aboutLink = document.getElementById("about-link");
+    const aboutSection = document.getElementById("about");
+
+    aboutLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        aboutSection.classList.toggle("hidden");
+    });
+});
