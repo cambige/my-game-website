@@ -505,3 +505,49 @@ body {
         font-size: 0.75rem;
     }
 }
+/* Gallery section styling */
+#gallery {
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images horizontally */
+    gap: 20px; /* Add space between images */
+}
+
+.gallery-image {
+    width: 80%; /* Adjust as needed */
+    height: auto;
+    border: 2px solid #ccc; /* Optional: Add a border */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    transition: transform 0.3s; /* Optional: Add hover effect */
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Optional: Scale up on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .gallery-image {
+        width: 100%;
+    }
+}
+    /* Additional Information section styling */
+#extra-content {
+    color: black; /* Set text color to black */
+}
+
+#extra-content .text-highlight {
+    color: black; /* Ensure text-highlight class within extra-content is also black */
+}
+
+#extra-content .text-muted {
+    color: black; /* Ensure text-muted class within extra-content is also black */
+}
+
+#extra-content .blockquote {
+    color: black; /* Ensure blockquote within extra-content is also black */
+}
