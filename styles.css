@@ -551,3 +551,14 @@ body {
 #extra-content .blockquote {
     color: black; /* Ensure blockquote within extra-content is also black */
 }
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-text,
+    .footer-copyright {
+        margin: 0;
+    }
+}
